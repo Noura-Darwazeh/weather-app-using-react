@@ -78,3 +78,24 @@
 .icon {
     margin-top: 10px;
 }
+
+@media screen and (max-width:767px) {
+    .weather-temp {
+        font-size: 5rem;
+    }
+
+    .data-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .weather-location,
+    .weather-description {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .top-bar input {
+        padding-left: 0.5rem;
+    }
+}
